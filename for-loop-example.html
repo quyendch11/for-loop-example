@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function geeks(){
+      document.write("for(;;) <br>");
+      for (let i=0 ;i <= 10; i+=2){
+          document.write(i+"<br>");
+      }
+      document.write("for...of <br>");
+      for(let i of ["ha noi",20.32,3000]){
+          document.write(i + ""+"<br>");
+      }
+      document.write("for...in<br>");
+      let obj={name:"peter",age:25,salary: 5000};
+      for(let i in obj){
+          document.write(obj[i]+""+"<br>");
+      }
+  }
+  geeks();
+</script>
+</body>
+</html>
